@@ -48,7 +48,7 @@ export default function Post(props) {
                 </div>
 
                 <div className="conteudo">
-                    <img src={props.post.content} alt={props.post.alt} onClick={likePostByImg} data-test="post-image" />
+                    <img src={props.post.content} alt={props.post.alt} onDoubleClick={likePostByImg} data-test="post-image" />
                 </div>
 
                 <div className="fundo">

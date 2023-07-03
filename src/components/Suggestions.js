@@ -19,7 +19,8 @@ export default function Suggestions() {
                 <Suggestion 
                 profile={suggestion.profile} 
                 user={suggestion.user} 
-                reason={suggestion.reason} />
+                reason={suggestion.reason} 
+                key={suggestion.user} />
             )}
         </div>
     )
